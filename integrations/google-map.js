@@ -1,5 +1,5 @@
 import OnDemand from "@/utils/OnDemandVendors";
-const API_KEY = 'AIzaSyDoIDTQoxppG4jjD7cJ0HxrQAQas3BpQ4Q';
+const API_KEY = 'XXXXX';
 
 export default (ctx, inject) => {
   const loader = new OnDemand(

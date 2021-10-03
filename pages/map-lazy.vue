@@ -48,12 +48,11 @@ export default {
       <p>Available pages</p>
       <ul>
         <li><NuxtLink to="/" class="text-blue-400">Homepage</NuxtLink></li>
-        <li><NuxtLink to="/map-lazy" class="text-blue-400">Lazy Map</NuxtLink></li>
+        <li><NuxtLink to="/map" class="text-blue-400">Ondemand Map</NuxtLink></li>
       </ul>
     </div>
 
     <div class="block">Above The Fold1</div>
-    <div class="block">Above The Fold2</div>
 
     <GoogleMap
       :options="options"/>
